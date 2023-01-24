@@ -312,3 +312,15 @@ header{
     font-size: 20px;
     border-radius: 0.5rem 0 0.5rem 0;
 }
+.products-container .box .bx-cart-alt:hover{
+    background: var(--orangeColor);
+    transition: 0.2s all linear;
+}
+.products-container .box .bx-heart{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 20px;
+    color: var(--light-orangeColor);
+}
+.products-container .box 
