@@ -351,3 +351,11 @@ header{
 .about-text p{
     margin: 0.5rem 0 1rem;
 }
+.customers{
+    max-width: 968px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.customers-container{
+    
+}
