@@ -323,4 +323,12 @@ header{
     font-size: 20px;
     color: var(--light-orangeColor);
 }
-.products-container .box 
+.products-container .box .discount{
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    background: var(--light-orangeColor);
+    color: var(--bgColor);
+    padding: 4px 18px;
+    clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 0 100%, 0% 50%, 0 0); /* I FIND CLIP-PATH MAKER THEN I MAKE CHANGE THE DESIGN AFTER COPY AND PASTE TO CSS. */
+}
