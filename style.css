@@ -332,3 +332,22 @@ header{
     padding: 4px 18px;
     clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 0 100%, 0% 50%, 0 0); /* I FIND CLIP-PATH MAKER THEN I MAKE CHANGE THE DESIGN AFTER COPY AND PASTE TO CSS. */
 }
+
+/* ABOUT SECTION */
+.about{
+    max-width: 968px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(21rem,auto));
+    align-items: center;
+    gap: 1.5rem;
+}
+.about-text span{
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--greenColor);
+}
+.about-text p{
+    margin: 0.5rem 0 1rem;
+}
